@@ -11,7 +11,7 @@ This project contains two Python scripts designed for **educational purposes** i
 
 ## 📁 Project Files
 
-- `bruteforcer.py` – Performs login brute force attacks using a list of passwords.
+- `bruteforce.py` – Performs login brute force attacks using a list of passwords.
 - `directories.py` – Performs directory brute forcing to discover hidden paths.
 - `passwords.txt` – A list of potential passwords used for login attacks.
 - `common.txt` – A list of common directory names used for directory scanning.
@@ -41,7 +41,7 @@ pip install requests
 
 
 ## 🧪 Usage Example:
-- python login_bruteforcer.py
+- python bruteforce.py
 - Make sure to update the target URL and form field names in the script.
 - The data payload should look like:
 data = {
